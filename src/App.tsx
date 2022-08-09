@@ -1,5 +1,3 @@
-import React from 'react';
-
 /**
  * Preferir a utilização do export ao inves do
  * export default porque com o default o componente
@@ -8,10 +6,14 @@ import React from 'react';
  * automaitca do vscode fica melhro
  */
 
+import { GlobalStyle } from './styles/global';
+
 export function App() {
   return (
     <div className="App">
-      <h2>Hello word </h2>
+      <h1>Hello word </h1>
+
+      <GlobalStyle />
     </div>
   );
 }
